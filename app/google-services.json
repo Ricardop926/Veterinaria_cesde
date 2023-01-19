@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833934726312",
+    "project_id": "registro-lista",
+    "storage_bucket": "registro-lista.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833934726312:android:933a247d5d1cf3a0d51e9d",
+        "android_client_info": {
+          "package_name": "com.example.veterinaria_basica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833934726312-dflqqme60it3f1e7ak13bvuq5djtne5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL-T2lqMJ5yfgrPDXvLWYOYQuFYw-TWHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833934726312-dflqqme60it3f1e7ak13bvuq5djtne5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

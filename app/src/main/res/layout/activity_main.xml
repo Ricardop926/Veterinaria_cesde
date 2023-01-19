@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phone_wallpaper_6376016_1920"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="864dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="374dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:srcCompat="@drawable/dog_1728494_640" />
+
+                <Button
+                    android:id="@+id/BorrarM"
+                    android:layout_width="340dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="#ffc5ab"
+
+                    android:fontFamily="sans-serif-black"
+                    android:text="Consultar Mascotas"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/RegistroM"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/RegistroM"
+                    app:layout_constraintTop_toBottomOf="@+id/RegistroM"
+                    app:layout_constraintVertical_bias="0.115" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="412dp"
+                    android:fontFamily="cursive"
+                    android:text="Furry Friends "
+                    android:textColor="#000000"
+                    android:textSize="60sp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/RegistroM"
+                    android:layout_width="340dp"
+                    android:layout_height="65dp"
+                    android:backgroundTint="#ffc5ab"
+                    android:fontFamily="sans-serif-black"
+
+                    android:onClick="RegistrarM"
+                    android:text="Registrar Mascota "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/textView"
+                    app:layout_constraintHorizontal_bias="0.535"
+                    app:layout_constraintStart_toStartOf="@+id/textView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    app:layout_constraintVertical_bias="0.098" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
